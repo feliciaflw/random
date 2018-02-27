@@ -1,0 +1,63 @@
+<!-- inline CSS- with HTML
+	 internal style CSS - put in the head
+	 external style CSS - create a link to stylesheet
+
+	 If HTML file too big, can use external HTML file-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<title>bootstrap</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=devide-width, initial scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<div class ="bg-1">
+		<div class ="container text-center">
+		<h3>who am i?</h3>
+		<img src = "../pictures/download.jpg" class="img-circle" alt="bird" width="350" height="350">
+		<h3>im an adventurer</h3>
+
+		<h1> This is a heading </h1>
+		<p id = "special"> This is a paragraph. </p>
+
+		<div class = "Flavors"> Vanilla </div> <!-- margin: top right bottom left, same for padding -->
+		<div class = "Flavors"> Chocolate </div>
+		<div class = "Flavors"> Strawberry </div>
+		<div class = "Flavors" id = "Favourite"> Mint </div>
+
+		<div class = "Capitals">
+			<h2>London</h2>
+			<p>London is the capital of England</p>
+		</div>
+
+		<div class = "Capitals">
+			<h2>Paris</h2>
+			<p>Paris is the capital of France</p>
+		</div>
+
+		<div class = "Capitals" id = "Tokyo">
+			<h2>Tokyo</h2>
+			<p>Tokyo is the capital of Japan</p>
+		</div>
+
+<!-- Background Imaage
+background-image: url("images.jpeg");
+background-repeat: repeat-x;
+background-attachment: fixed;
+background-position: center;
+-->
+
+<!-- Border
+	Border: Width style margin;
+-->
+
+	<div class = "border"></div>
+
+	</body>
+</html>
