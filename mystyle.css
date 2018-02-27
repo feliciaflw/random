@@ -1,0 +1,42 @@
+body {
+	background-color: lightblue;
+}
+
+h1 {
+	color: navy; margin-left: 20px;
+}
+
+p {
+	color: white;
+}
+
+.Flavors {
+	background-color: green;
+}
+
+#Favourite {
+	background-color: red;
+}
+
+.Capitals {
+	background-color: black;
+	color: white;
+	margin: 20px 0 20px 0; 
+	padding: 20px;
+}
+
+#special {
+	color: black;
+}
+
+#Tokyo {
+	background-color: red;
+}
+
+div.border {
+	background-color: lightgrey;
+	width:300px;
+	border: 25px solid green;
+	padding: 25px;
+	margin: 25px;
+}
